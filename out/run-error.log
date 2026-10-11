@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\telechargement\crater\run_demo.py", line 82, in <module>
+    main()
+  File "D:\telechargement\crater\run_demo.py", line 46, in main
+    up = LossyLink(P_UP, P_G, t0, bo, seed=1, name="up").start()
+  File "D:\telechargement\crater\link.py", line 23, in __init__
+    self.rx.bind(("127.0.0.1", listen_port))
+OSError: [WinError 10048] Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée

@@ -1,0 +1,42 @@
+{
+  "frames": 616,
+  "perception_ms_mean": 6.3319099039314075,
+  "perception_fps_capacity": 157.93023197931353,
+  "mean_pose_error_m": 0.2459784965631397,
+  "packets_sent": 111,
+  "packets_received": 64,
+  "crc_rejected": 0,
+  "delivery_ratio": 0.5765765765765766,
+  "bytes_sent": 1811,
+  "avg_packet_bytes": 16.315315315315317,
+  "json_equivalent_bytes": 15278,
+  "compression_vs_json": 8.436223081170624,
+  "avg_bps": 241.46666666666667,
+  "hazards_in_truth": 26,
+  "link_up": {
+    "in_pkts": 111,
+    "in_bytes": 1811,
+    "out_pkts": 64,
+    "dropped_loss": 25,
+    "dropped_blackout": 21,
+    "dropped_bw": 0,
+    "flipped": 0
+  },
+  "link_down": {
+    "in_pkts": 13,
+    "in_bytes": 234,
+    "out_pkts": 10,
+    "dropped_loss": 3,
+    "dropped_blackout": 0,
+    "dropped_bw": 0,
+    "flipped": 0
+  },
+  "detection": {
+    "reported": 14,
+    "true_positive": 14,
+    "false_positive": 0,
+    "precision": 1.0,
+    "mean_pos_err_m": 0.29494853963737605
+  },
+  "unacked_hazards": 0
+}
